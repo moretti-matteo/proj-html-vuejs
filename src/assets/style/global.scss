@@ -1,0 +1,13 @@
+@import './global-parts/_variables.scss';
+@import './global-parts/_reset.scss';
+@import './global-parts/typography';
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+}
