@@ -44,7 +44,7 @@ export default {
 header {
     padding-top: 20px;
     color: var(--color-white);
-    height: 600px;
+    height: 95vh;
     background-image: url('../../assets/img/header-image-homepage.jpg');
     background-size: cover;
 }

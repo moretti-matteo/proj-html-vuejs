@@ -2,7 +2,7 @@
 @import './global-parts/_reset.scss';
 @import './global-parts/typography';
 
-body{
+body {
     font-family: 'Zen Maru Gothic', sans-serif;
 }
 
@@ -10,4 +10,21 @@ body{
     max-width: 1300px;
     height: auto;
     margin: auto;
+}
+
+.container-md {
+    max-width: 1000px;
+    height: auto;
+    margin: auto;
+}
+
+.container-sm {
+    max-width: 650px;
+    height: auto;
+    margin: auto;
+}
+
+.image{
+    width: 100%;
+    height: auto;
 }
