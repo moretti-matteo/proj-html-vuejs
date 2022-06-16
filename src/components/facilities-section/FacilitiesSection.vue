@@ -81,12 +81,10 @@ export default {
 <style lang="scss" scoped>
 .section {
   height: 100vh;
-  border: 1px solid black;
 
   &__top {
     background-image: url("../../assets/img/paralax-bg-tour-facilities.jpg");
     height: 65%;
-    border: 1px solid red;
     background-position: center;
     background-size: cover;
     text-align: center;
