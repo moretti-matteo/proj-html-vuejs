@@ -82,6 +82,9 @@ export default {
 section {
     margin-top: 50px;
     background-color: #f7f7f7;
+    padding-bottom: 100px;
+    padding-top: 50px;
+
 }
 
 .container-sm {
