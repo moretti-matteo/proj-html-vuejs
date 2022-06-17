@@ -31,6 +31,7 @@ footer {
         margin-top: 50px;
         padding-bottom: 50px;
         display: flex;
+        gap: 20px;
         justify-content: space-between;
         flex-wrap: wrap;
 
@@ -39,7 +40,7 @@ footer {
         }
 
         &>div {
-            width: calc(100% / 3);
+            width: calc(100% / 3 - 20px);
         }
 
     }

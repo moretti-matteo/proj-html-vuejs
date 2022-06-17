@@ -32,8 +32,8 @@ export default {
 section {
   display: flex;
   align-items: center;
-  height: 90vh;
   text-align: center;
+  height: 700px;
   color: lightgray;
   background-image: url("../../assets/img/make-an-appointment.jpg");
   background-size: cover;

@@ -54,31 +54,38 @@ section {
     text-align: center;
 }
 
-.container-sm{
-    & > h1{
+.container-sm {
+    &>h1 {
         font-weight: 400;
         margin-bottom: 20px;
     }
 
-    p{
+    p {
         line-height: 35px;
     }
 }
 
-.image{
+.image {
     width: 25%;
 }
 
-.card-section{
-    display: flex;
-    margin-top: 60px;
-    color:var( --color-lightdark);
 
-    & h3{
+
+.card-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    color: var(--color-lightdark);
+
+    &>div {
+        max-width: 25%;
+    }
+    & h3 {
         font-weight: 400;
     }
 
-    & > div > *{
+    &>div>* {
         margin-bottom: 20px;
     }
 }

@@ -113,6 +113,7 @@ section {
 
 .doctor-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     column-gap: 35px;
     margin-top: 50px;
@@ -124,6 +125,20 @@ img {
 
 .doctor-card {
     max-width: calc(100% / 3 - 35px);
+}
+
+@media screen and(max-width:997px) {
+    .doctor-card {
+        max-width: calc(100% / 2 - 35px);
+    }
+
+}
+
+@media screen and(max-width:697px) {
+    .doctor-card {
+        max-width: calc(100% - 35px);
+    }
+
 }
 
 .doc-info {

@@ -36,7 +36,7 @@
       </div>
       <div class="card">
         <div>
-          <h4>Emergency Care</h4>
+          <h4>Expert Diagnostics</h4>
         </div>
         <div>
           <img src="../../assets/img/wave-divider.png" alt="" />
@@ -53,7 +53,7 @@
       </div>
       <div class="card">
         <div>
-          <h4>Emergency Care</h4>
+          <h4>Superb Rehabilitation</h4>
         </div>
         <div>
           <img src="../../assets/img/wave-divider.png" alt="" />
@@ -80,11 +80,11 @@ export default {
 
 <style lang="scss" scoped>
 .section {
-  height: 100vh;
 
   &__top {
     background-image: url("../../assets/img/paralax-bg-tour-facilities.jpg");
-    height: 65%;
+    // padding: 60px 0;
+    height: 500px;
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -111,32 +111,37 @@ export default {
       background-position: center;
       background-size: cover;
       margin-top: 20px;
+      border:none;
+      transition:0.25s;
     }
 
     .play:hover {
       cursor: pointer;
-      transform: scale(1.1);
+      transform: scale(1.2);
+      transition:0.25s;
     }
   }
 
   &__bottom {
     display: flex;
-    height: 35%;
     text-align: center;
     color: var(--color-white);
 
     $colors: #3aafbf #3597c3 #327ec7;
 
     @for $i from 1 through 3 {
-      & > div:nth-child(3n + #{$i}) {
+      &>div:nth-child(3n + #{$i}) {
         background-color: nth($colors, $i);
       }
     }
-    & > div {
+
+    &>div {
+      padding: 40px 0;
       display: flex;
       flex-direction: column;
       justify-content: center;
       width: calc(100% / 3);
+
       button {
         background: none;
         border: 1px solid white;
@@ -154,7 +159,7 @@ export default {
         }
       }
 
-      & > * {
+      &>* {
         margin-bottom: 5px;
       }
     }

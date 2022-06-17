@@ -44,7 +44,7 @@ export default {
 header {
     padding-top: 20px;
     color: var(--color-white);
-    height: 95vh;
+    height: 700px;
     background-image: url('../../assets/img/header-image-homepage.jpg');
     background-size: cover;
 }
@@ -91,9 +91,9 @@ header {
     width: 40%;
     justify-content: flex-end;
 
+
     & button {
         font-size: 13px;
-
     }
 
 
@@ -120,10 +120,10 @@ button {
     background-color: var(--primary-color);
     border: none;
     padding: 0 15px;
-    font-family: 'Zen Maru Gothic', sans-serif; 
+    font-family: 'Zen Maru Gothic', sans-serif;
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
 }
 </style>
