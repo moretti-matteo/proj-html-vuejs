@@ -34,7 +34,8 @@ export default {
 <style lang="scss" scoped>
 .footer__right {
     a {
-        color: black;
+        color: var(--color-lightdark);
+
         text-decoration: none;
         margin-left: 10px;
 
@@ -88,7 +89,7 @@ export default {
 
         }
 
-        
+
     }
 
 

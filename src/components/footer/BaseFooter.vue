@@ -26,6 +26,8 @@ export default {
 
 <style lang="scss">
 footer {
+    color: var(--color-lightdark);
+
 
     .footer__top.container {
         margin-top: 50px;
