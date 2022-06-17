@@ -35,7 +35,7 @@ export default {
 
         h1 {
             font-size: 50px;
-            font-weight: 400;
+            font-weight: 300;
             margin-bottom: 20px;
 
             &>span {

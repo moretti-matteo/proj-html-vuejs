@@ -33,14 +33,14 @@ section {
   display: flex;
   align-items: center;
   text-align: center;
-  height: 700px;
+  height: 100vh;
   color: lightgray;
   background-image: url("../../assets/img/make-an-appointment.jpg");
   background-size: cover;
   background-position: center;
 
   h1{
-    font-weight: 400;
+    font-weight: 300;
   }
 
   & form {

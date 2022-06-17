@@ -26,6 +26,8 @@ export default {
 <style lang="scss" scoped>
 div:first-child {
 
+    color:var(--color-lightdark);
+
     p {
         margin-top: 10px;
         line-height: 30px;

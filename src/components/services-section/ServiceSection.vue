@@ -66,7 +66,7 @@ section {
     padding-bottom: 50px;
 
     h1,h3{
-        font-weight: 400;
+        font-weight: 300;
     }
 }
 

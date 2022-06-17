@@ -82,7 +82,7 @@ section {
         max-width: 25%;
     }
     & h3 {
-        font-weight: 400;
+        font-weight: 300;
     }
 
     &>div>* {
