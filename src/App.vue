@@ -19,7 +19,7 @@ export default {
     BaseHeader,
     BaseMain,
     BaseFooter,
-    BackUp
+    BackUp,
 }
 }
 </script>

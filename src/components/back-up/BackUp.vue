@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a href="#head"><i class="fa-solid fa-chevron-up"></i></a>
+    <a href="#app"><i class="fa-solid fa-chevron-up"></i></a>
   </div>
 </template>
 

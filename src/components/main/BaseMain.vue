@@ -1,5 +1,6 @@
 <template>
   <main>
+    <SectionHero></SectionHero>
     <WelcomeSectionVue></WelcomeSectionVue>
     <DoctorSectionVue></DoctorSectionVue>
     <ServiceSectionVue></ServiceSectionVue>
@@ -16,6 +17,7 @@ import ServiceSectionVue from "../services-section/ServiceSection.vue";
 import FacilitiesSection from "../facilities-section/FacilitiesSection.vue";
 import AppointmentSection from "../appointment-section/AppointmentSection.vue";
 import CarouselSection from "../carousel-section/CarouselSection.vue"
+import SectionHero from "../hero-section/SectionHero.vue";
 
 export default {
   name: "BaseMain",
@@ -25,7 +27,8 @@ export default {
     ServiceSectionVue,
     FacilitiesSection,
     AppointmentSection,
-    CarouselSection
+    CarouselSection,
+    SectionHero
 },
 };
 </script>

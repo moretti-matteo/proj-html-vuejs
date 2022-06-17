@@ -111,14 +111,14 @@ export default {
       background-position: center;
       background-size: cover;
       margin-top: 20px;
-      border:none;
-      transition:0.25s;
+      border: none;
+      transition: 0.25s;
     }
 
     .play:hover {
       cursor: pointer;
       transform: scale(1.2);
-      transition:0.25s;
+      transition: 0.25s;
     }
   }
 
