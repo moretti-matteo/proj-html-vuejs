@@ -60,6 +60,7 @@ export default {
                 cursor: pointer;
                 transform: scale(1.1);
                 transition: 0.25s;
+                box-shadow: 0px 2px 20px 0px var(--primary-color);
             }
         }
 
