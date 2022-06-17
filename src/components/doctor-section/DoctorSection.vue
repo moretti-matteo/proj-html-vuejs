@@ -90,8 +90,8 @@ section {
 .container-sm {
     text-align: center;
 
-    & img{
-        margin:auto;
+    & img {
+        margin: auto;
     }
 
     & hr {
@@ -118,7 +118,7 @@ section {
     margin-top: 50px;
 }
 
-img{
+img {
     display: block;
 }
 
@@ -140,18 +140,6 @@ img{
 
         svg {
             margin-right: 10px;
-        }
-
-        .fa-facebook-square {
-            color: var(--fb-color);
-        }
-
-        .fa-instagram-square {
-            color: var(--ig-color);
-        }
-
-        .fa-twitter-square {
-            color: var(--tw-color);
         }
     }
 }
