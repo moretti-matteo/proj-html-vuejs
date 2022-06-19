@@ -20,6 +20,7 @@ export default {
 
 <style  lang="scss" scoped>
 header {
+    overflow: hidden;
     position: absolute;
     left: 50%;
     top: 15px;

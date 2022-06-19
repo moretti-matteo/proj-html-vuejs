@@ -1,19 +1,29 @@
 <template>
     <section class="hero">
         <div class="hero__content">
-            <h1>
+            <h1 class="fade-in">
                 Caring <span>For Life</span>
             </h1>
-            <p>Kind words can be short and easy to speak, but their echoes are truly endless. Avada Health focuses on
+            <p class="fade-in">Kind words can be short and easy to speak, but their echoes are truly endless. Avada
+                Health focuses on
                 you as if it was our own family.</p>
-            <button class="btn-cta">LEARN MORE</button>
+            <button class="btn-cta cta-gsap">LEARN MORE</button>
         </div>
     </section>
 </template>
 
+
 <script>
+import gsap from 'gsap';
+
 export default {
-    name: 'SectionHero'
+    name: 'SectionHero',
+    mounted() {
+        let tl = gsap.timeline();
+        tl.to(".fade-in", { opacity: 1, y: 0, duration: 1, stagger: 0.3 });
+        tl.to(".cta-gsap", { y: 0, duration: 1.3, opacity: 1 }, "0");
+    }
+
 }
 </script>
 
@@ -33,6 +43,11 @@ export default {
         max-width: 600px;
         color: var(--color-white);
 
+        .fade-in {
+            opacity: 0;
+            transform: translateY(2rem);
+        }
+
         h1 {
             font-size: 50px;
             font-weight: 300;
@@ -47,20 +62,23 @@ export default {
             font-size: 20px;
         }
 
+        .cta-gsap {
+            opacity: 0;
+            transform: translateY(2rem);
+
+        }
+
         .btn-cta {
             background-color: var(--primary-color);
             color: white;
             border: none;
             padding: 15px 30px;
             margin-top: 30px;
-            transition: 0.25s;
+
 
 
             &:hover {
                 cursor: pointer;
-                transform: scale(1.1);
-                transition: 0.25s;
-                box-shadow: 0px 2px 20px 0px var(--primary-color);
             }
         }
 

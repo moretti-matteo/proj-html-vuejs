@@ -2,7 +2,7 @@
   <div id="app">
     <BaseHeader></BaseHeader>
     <BaseMain></BaseMain>
-    <BaseFooter></BaseFooter> 
+    <BaseFooter></BaseFooter>
     <BackUp></BackUp>
   </div>
 </template>

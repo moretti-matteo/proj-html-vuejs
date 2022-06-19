@@ -4,14 +4,15 @@
             <ul>
                 <li v-for="(item, i) in items" :key="i">
                     <a href="">{{ item }}</a>
-                </li> 
+                </li>
             </ul>
         </nav>
-        <button>MAKE APPOINTMENT</button>
+        <a href="#appointment">MAKE APPOINTMENT</a>
     </div>
 </template>
 
 <script>
+import gsap from 'gsap';
 export default {
     name: 'HeaderRight',
     data() {
@@ -24,6 +25,10 @@ export default {
             ]
         };
     },
+    mounted() {
+        let tl = gsap.timeline();
+        tl.to(".header__right", { y: 0, opacity: 1, duration: 1.3, ease: "power4.out" });
+    }
 }
 </script>
 
@@ -48,17 +53,20 @@ export default {
 }
 
 .header__right {
+    transform: translateY(-100px);
+    opacity: 0;
     display: flex;
     font-size: 13px;
     align-items: center;
 
-    button {
+    &>a {
+        transition: 0.25s;
+        letter-spacing: 1px;
+        color: white;
+        text-decoration: none;
         padding: 10px 25px;
         background-color: var(--primary-color);
-        border: none;
-        color: white;
-        letter-spacing: 1px;
-        transition: 0.25s;
+
 
         &:hover {
             cursor: pointer;

@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="appointment">
     <div class="container-sm">
       <h1>Make An Appointment</h1>
       <hr />
@@ -14,7 +14,7 @@
           <input type="email" placeholder="Email*" />
           <input type="tel" placeholder="Phone Number" />
           <input type="date" />
-          <textarea rows="5" placeholder="How can we help?" ></textarea>
+          <textarea rows="5" placeholder="How can we help?"></textarea>
           <button type="submit">MAKE AN APPOINTMENT</button>
         </form>
       </div>
@@ -39,7 +39,7 @@ section {
   background-size: cover;
   background-position: center;
 
-  h1{
+  h1 {
     font-weight: 300;
   }
 
@@ -50,12 +50,12 @@ section {
     flex-wrap: wrap;
     gap: 20px;
 
-    & > *:not(button[type="submit"]) {
+    &>*:not(button[type="submit"]) {
       background: none;
       border: 1px solid var(--color-lightgrey);
       padding: 10px 10px;
       color: lightgray;
-      
+
 
       &::placeholder {
         color: lightgray;
@@ -71,16 +71,16 @@ section {
       resize: none;
     }
 
-    button{
-        background-color: var(--primary-color);
-        color:white;
-        width: calc(100% - 20px);
-        padding: 10px 0;
-        border:none;
+    button {
+      background-color: var(--primary-color);
+      color: white;
+      width: calc(100% - 20px);
+      padding: 10px 0;
+      border: none;
 
-        &:hover{
-            cursor: pointer;
-        }
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 }
